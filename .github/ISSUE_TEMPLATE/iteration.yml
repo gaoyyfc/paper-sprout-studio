@@ -1,0 +1,21 @@
+name: Workflow iteration
+description: Improve a controllable generation step
+title: "[Workflow]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: Creator problem
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Affected node and state transition
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Acceptance evidence
+      description: Screenshot, automated check, timing or success rate.
+    validations:
+      required: true

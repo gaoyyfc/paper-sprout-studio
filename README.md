@@ -1,8 +1,14 @@
 # 纸芽儿歌 AI 视频工坊
 
+[![CI](https://github.com/gaoyyfc/paper-sprout-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/gaoyyfc/paper-sprout-studio/actions/workflows/ci.yml)
+
 面向 3–7 岁儿童早教内容的可控视频生成网页。产品用节点画布管理项目、IP、儿歌文案、可变数量分镜、分层素材、配音、预览和导出；每个分镜都能单独编辑、删除、排序与重生成。
 
 ![节点式视频工作流](quality/ui-canvas.png)
+
+| 项目管理 | 分镜编辑 | 视频预览 |
+|---|---|---|
+| ![项目管理](quality/ui-projects.png) | ![分镜编辑](quality/ui-scene-editor.png) | ![视频预览](quality/ui-preview.png) |
 
 ## 产品价值
 
@@ -63,6 +69,10 @@ deploy/              服务部署示例
 ## 我的工作
 
 独立完成产品流程、节点画布交互、分镜与素材数据模型、模型接入、角色抠图、实时预览、异步渲染以及端到端质量检查。
+
+## 项目材料
+
+- [产品案例](docs/product-case-study.md) · [系统架构](docs/architecture.md) · [指标计划](docs/metrics.md) · [面试讲解](docs/interview-guide.md)
 
 ## 后续扩展点
 
