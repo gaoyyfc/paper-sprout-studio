@@ -1,0 +1,19 @@
+[Unit]
+Description=Paper Sprout AI video API and Remotion renderer
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/paper-sprout-studio
+Environment=NODE_ENV=production
+Environment=HOST=127.0.0.1
+Environment=PORT=9000
+Environment=REMOTION_BROWSER_EXECUTABLE=/usr/bin/google-chrome-stable
+ExecStart=/usr/local/bin/pnpm start
+Restart=always
+RestartSec=5
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
+

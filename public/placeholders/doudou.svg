@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900">
+  <defs><filter id="s"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#38463f" flood-opacity=".22"/></filter></defs>
+  <g filter="url(#s)" stroke="#fffdf4" stroke-width="18" stroke-linejoin="round">
+    <circle cx="182" cy="225" r="86" fill="#d89b55"/><circle cx="418" cy="225" r="86" fill="#d89b55"/>
+    <circle cx="300" cy="345" r="184" fill="#e0aa66"/>
+    <ellipse cx="300" cy="660" rx="174" ry="190" fill="#dea45e"/>
+    <path d="M180 522c66 65 174 65 240 0l-18 110c-70 46-134 46-204 0z" fill="#4e8b79"/>
+    <path d="M150 613c-51 45-57 108-24 127 31 18 66-17 94-70M450 613c51 45 57 108 24 127-31 18-66-17-94-70" fill="#dea45e"/>
+    <ellipse cx="228" cy="830" rx="82" ry="44" fill="#c88947"/><ellipse cx="372" cy="830" rx="82" ry="44" fill="#c88947"/>
+    <ellipse cx="300" cy="390" rx="88" ry="72" fill="#f1c68a"/>
+  </g>
+  <ellipse cx="244" cy="327" rx="14" ry="19" fill="#493a31"/><ellipse cx="356" cy="327" rx="14" ry="19" fill="#493a31"/><ellipse cx="300" cy="378" rx="22" ry="17" fill="#493a31"/><path d="M278 410c14 16 30 16 44 0" fill="none" stroke="#493a31" stroke-width="11" stroke-linecap="round"/>
+</svg>

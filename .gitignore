@@ -1,0 +1,16 @@
+node_modules/
+dist/
+dist-types/
+public/generated/
+public/renders/
+public/projects/
+public/audio/
+data/projects/
+.env.local
+.env
+.env.*
+!.env.example
+*.log
+deploy/.venv/
+*.zip
+*.tsbuildinfo
